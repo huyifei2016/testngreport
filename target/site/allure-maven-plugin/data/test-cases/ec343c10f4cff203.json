@@ -1,0 +1,59 @@
+{
+  "uid" : "ec343c10f4cff203",
+  "name" : "test1",
+  "fullName" : "factory.TestDate.test1",
+  "historyId" : "73383111649cc827b5df2f7c32545cba",
+  "time" : {
+    "start" : 1576140684863,
+    "stop" : 1576140684865,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "factory.TestDate"
+  }, {
+    "name" : "testClass",
+    "value" : "factory.TestDate"
+  }, {
+    "name" : "testMethod",
+    "value" : "test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "factory"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "factory.TestDate"
+  }, {
+    "name" : "host",
+    "value" : "HUYF9-PF1L46YU"
+  }, {
+    "name" : "thread",
+    "value" : "113580@HUYF9-PF1L46YU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec343c10f4cff203.json",
+  "parameterValues" : [ ]
+}

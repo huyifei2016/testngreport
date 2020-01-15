@@ -1,0 +1,61 @@
+{
+  "uid" : "49cf5a71f2216e0f",
+  "name" : "test1",
+  "fullName" : "factory.Factory1.test1",
+  "historyId" : "1c7deb1f4f0120cd8f7f58f4d5e0eaea",
+  "time" : {
+    "start" : 1576140651798,
+    "stop" : 1576140651798,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "factory.Factory1"
+  }, {
+    "name" : "testClass",
+    "value" : "factory.Factory1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "factory"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "factory.Factory1"
+  }, {
+    "name" : "host",
+    "value" : "HUYF9-PF1L46YU"
+  }, {
+    "name" : "thread",
+    "value" : "113580@HUYF9-PF1L46YU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49cf5a71f2216e0f.json",
+  "parameterValues" : [ ]
+}

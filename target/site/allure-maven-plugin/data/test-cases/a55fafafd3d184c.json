@@ -1,0 +1,61 @@
+{
+  "uid" : "a55fafafd3d184c",
+  "name" : "test3",
+  "fullName" : "parallel.Parallel1.test3",
+  "historyId" : "e8cfe9f7871b494561b7d7df5a90a193",
+  "time" : {
+    "start" : 1576140651776,
+    "stop" : 1576140651777,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "parallel.Parallel1"
+  }, {
+    "name" : "testClass",
+    "value" : "parallel.Parallel1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "parallel"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "parallel.Parallel1"
+  }, {
+    "name" : "host",
+    "value" : "HUYF9-PF1L46YU"
+  }, {
+    "name" : "thread",
+    "value" : "113580@HUYF9-PF1L46YU.TestNG-test=Test-3(18)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a55fafafd3d184c.json",
+  "parameterValues" : [ ]
+}

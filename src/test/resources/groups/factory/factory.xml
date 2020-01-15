@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="factory">
+  <test name="Test">
+    <groups>
+      <run>
+   <!--   <include name="group1"></include>  -->
+      <!--  <include name="smoke"></include>-->
+    <!--  <include name="smoke"></include>-->
+      </run>
+    </groups>
+      <packages>
+          <package name="factory"></package>
+      </packages>
+    <classes>
+
+    <!--<class name="group.Group1"></class>
+      <class name="group.Group2"></class>-->
+      <!--  <class name="factory"></class>-->
+     <!--   <class name="factory.FactoryTest2"></class>
+        <class name="factory.FactoryTest3"></class>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

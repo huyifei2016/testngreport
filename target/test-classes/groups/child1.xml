@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="child2">
+  <test name="Test">
+    <groups>
+      <run>
+   <!--   <include name="group1"></include>  -->
+        <include name="smoke"></include>
+    <!--  <include name="smoke"></include>-->
+      </run>
+    </groups>
+    <classes>
+      <class name="smoke.Smoke"></class>
+      <class name="smoke1.Smoke1"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

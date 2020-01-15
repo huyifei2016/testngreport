@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parents">
+<listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"></listener>
+  <listener class-name="listener.MyReporterListener"></listener>
+</listeners>
+  <suite-files>
+  <!--  <suite-file path="/groups/child.xml"/>
+    <suite-file path="/groups/child1.xml"/>-->
+      <suite-file path="groups/timeout.xml"></suite-file>
+     <suite-file path="groups/parallel.xml"></suite-file>
+     <suite-file path="groups/factory/factory.xml"></suite-file>
+  </suite-files>
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+<listeners>
+</listeners>
+  <test name="Test">
+    <groups>
+      <run>
+   <!--   <include name="group1"></include>  -->
+        <include name="abc"></include><!--没有这类分组，会不执行-->
+        <include name="group1"></include>
+          <exclude name="group1"></exclude><!--包含与排除同时存在，排除优先-->
+    <!--  <include name="smoke"></include>-->
+      </run>
+    </groups>
+    <classes>
+    <class name="group.Group1"></class>
+      <class name="group.Group2"></class>
+      <class name="smoke.Smoke"></class>
+      <class name="smoke1.Smoke1"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

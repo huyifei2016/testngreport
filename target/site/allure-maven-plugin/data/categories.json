@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Method timeout.TestTimeOut.test1() didn't finish within the time-out 240",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "f6221ec174c27c18",
+        "parentUid" : "79f2fbe6d243cefc7af691a7356edf13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1576140651055,
+          "stop" : 1576140651320,
+          "duration" : 265
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79f2fbe6d243cefc7af691a7356edf13"
+    }, {
+      "name" : "Method timeout.TestTimeOut.test2() didn't finish within the time-out 240",
+      "children" : [ {
+        "name" : "test2",
+        "uid" : "a169227ded509cc3",
+        "parentUid" : "fb31c276b887e866aa2bfadd55bbb41d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1576140651467,
+          "stop" : 1576140651708,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb31c276b887e866aa2bfadd55bbb41d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

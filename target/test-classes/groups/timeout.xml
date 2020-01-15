@@ -1,0 +1,19 @@
+
+<!--timeout 设置在xml中会限制整个xml执行的时间-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="timeout"  time-out="240">
+  <test name="Test">
+    <groups>
+      <run>
+   <!--   <include name="group1"></include>  -->
+      <!--  <include name="smoke"></include>-->
+    <!--  <include name="smoke"></include>-->
+      </run>
+    </groups>
+    <classes>
+    <!--<class name="group.Group1"></class>
+      <class name="group.Group2"></class>-->
+        <class name="timeout.TestTimeOut"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

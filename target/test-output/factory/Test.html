@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 12 16:50:51 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>33 seconds (33091 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='factory.FactoryTest1.sout1()'><b>sout1</b><br>Test class: factory.FactoryTest1</td>
+<td></td>
+<td>3</td>
+<td>factory.FactoryTest1@4de41af9</td></tr>
+<tr>
+<td title='factory.FactoryTest2.sout1()'><b>sout1</b><br>Test class: factory.FactoryTest2</td>
+<td></td>
+<td>10</td>
+<td>factory.FactoryTest2@2453f95d</td></tr>
+<tr>
+<td title='factory.FactoryTest2.sout1()'><b>sout1</b><br>Test class: factory.FactoryTest2</td>
+<td></td>
+<td>10</td>
+<td>factory.FactoryTest2@47404bea</td></tr>
+<tr>
+<td title='factory.FactoryTest2.sout1()'><b>sout1</b><br>Test class: factory.FactoryTest2</td>
+<td></td>
+<td>10</td>
+<td>factory.FactoryTest2@56ace400</td></tr>
+<tr>
+<td title='factory.FactoryTest3.sout1()'><b>sout1</b><br>Test class: factory.FactoryTest3</td>
+<td></td>
+<td>0</td>
+<td>factory.FactoryTest3@305f7627</td></tr>
+<tr>
+<td title='factory.FactoryTest3.sout1()'><b>sout1</b><br>Test class: factory.FactoryTest3</td>
+<td></td>
+<td>0</td>
+<td>factory.FactoryTest3@44828f6b</td></tr>
+<tr>
+<td title='factory.FactoryTest3.sout1()'><b>sout1</b><br>Test class: factory.FactoryTest3</td>
+<td></td>
+<td>0</td>
+<td>factory.FactoryTest3@5d018107</td></tr>
+<tr>
+<td title='factory.Factory1.test1()'><b>test1</b><br>Test class: factory.Factory1</td>
+<td></td>
+<td>0</td>
+<td>factory.Factory1@2dbe250d</td></tr>
+<tr>
+<td title='factory.FactoryTest.test1()'><b>test1</b><br>Test class: factory.FactoryTest</td>
+<td></td>
+<td>0</td>
+<td>factory.FactoryTest@3e34ace1</td></tr>
+<tr>
+<td title='factory.FactoryTest.test1()'><b>test1</b><br>Test class: factory.FactoryTest</td>
+<td></td>
+<td>0</td>
+<td>factory.FactoryTest@6e1d8f9e</td></tr>
+<tr>
+<td title='factory.TestDate.test1()'><b>test1</b><br>Test class: factory.TestDate</td>
+<td></td>
+<td>0</td>
+<td>factory.TestDate@4f071df8</td></tr>
+<tr>
+<td title='factory.TestDate.test1()'><b>test1</b><br>Test class: factory.TestDate</td>
+<td></td>
+<td>0</td>
+<td>factory.TestDate@62fe6067</td></tr>
+<tr>
+<td title='factory.Factory1.test2()'><b>test2</b><br>Test class: factory.Factory1</td>
+<td></td>
+<td>0</td>
+<td>factory.Factory1@2dbe250d</td></tr>
+<tr>
+<td title='factory.FactoryTest.test2()'><b>test2</b><br>Test class: factory.FactoryTest</td>
+<td></td>
+<td>0</td>
+<td>factory.FactoryTest@3e34ace1</td></tr>
+<tr>
+<td title='factory.FactoryTest.test2()'><b>test2</b><br>Test class: factory.FactoryTest</td>
+<td></td>
+<td>0</td>
+<td>factory.FactoryTest@6e1d8f9e</td></tr>
+<tr>
+<td title='factory.TestDate.test2()'><b>test2</b><br>Test class: factory.TestDate</td>
+<td></td>
+<td>0</td>
+<td>factory.TestDate@4f071df8</td></tr>
+<tr>
+<td title='factory.TestDate.test2()'><b>test2</b><br>Test class: factory.TestDate</td>
+<td></td>
+<td>0</td>
+<td>factory.TestDate@62fe6067</td></tr>
+</table><p>
+</body>
+</html>

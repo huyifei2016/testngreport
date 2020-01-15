@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parallel" parallel="methods" thread-count="5">
+  <test name="Test">
+    <groups>
+      <run>
+   <!--   <include name="group1"></include>  -->
+   <!--   <include name="group1"></include>  -->
+   <!--   <include name="group1"></include>  -->
+      <!-- <include name="smoke"></include>-->
+    <!--  <include name="smoke"></include>-->
+      </run>
+    </groups>
+    <classes>
+    <class name="parallel.Parallel1"></class>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

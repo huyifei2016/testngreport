@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 35.94 s <<< FAILURE! - in TestSuite
+test1(timeout.TestTimeOut)  Time elapsed: 0.405 s  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method timeout.TestTimeOut.test1() didn't finish within the time-out 240
+	at timeout.TestTimeOut.test1(TestTimeOut.java:13)
+
+test2(timeout.TestTimeOut)  Time elapsed: 0.246 s  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method timeout.TestTimeOut.test2() didn't finish within the time-out 240
+	at timeout.TestTimeOut.test2(TestTimeOut.java:22)
+
