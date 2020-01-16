@@ -5,9 +5,9 @@
   <listener class-name="listener.MyReporterListener"></listener>
 </listeners>
   <suite-files>
-  <!--  <suite-file path="/groups/child.xml"/>
-    <suite-file path="/groups/child1.xml"/>-->
-      <suite-file path="groups/timeout.xml"></suite-file>
+  <!--  <suite-file path="/groups/child.xml"/>-->
+    <suite-file path="/groups/child1.xml"/>
+     <!-- <suite-file path="groups/timeout.xml"></suite-file>-->
      <suite-file path="groups/parallel.xml"></suite-file>
      <suite-file path="groups/factory/factory.xml"></suite-file>
   </suite-files>
