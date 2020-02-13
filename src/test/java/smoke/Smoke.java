@@ -1,11 +1,11 @@
 package smoke;
 
+import newlistener.MyTestListener;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import java.security.interfaces.DSAPublicKey;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+@Listeners(MyTestListener.class)
 public class Smoke {
     @Test(groups = "smoke")
     public void test1()

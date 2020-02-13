@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="child2">
+    <listeners>
+        <listener class-name="listener.MyReporterListener"></listener>
+    </listeners>
+  <test name="Test">
+    <!--<groups>
+      <run>
+   &lt;!&ndash;   <include name="group1"></include>  &ndash;&gt;
+        <include name="smoke"></include>
+    &lt;!&ndash;  <include name="smoke"></include>&ndash;&gt;
+      </run>
+    </groups>-->
+    <classes>
+      <class name="datapeovider.Dataprovider1"></class>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

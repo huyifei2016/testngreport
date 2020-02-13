@@ -600,7 +600,8 @@
                   </a> <!-- test2 -->
                   <span class="method-name">test2</span>
                   <div class="stack-trace">org.testng.internal.thread.ThreadTimeoutException: Method timeout.TestTimeOut.test2() didn&apos;t finish within the time-out 240
-	at timeout.TestTimeOut.test2(TestTimeOut.java:22)
+	at java.lang.Thread.sleep(Native Method)
+	at timeout.TestTimeOut.test2(TestTimeOut.java:21)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -816,15 +817,15 @@ data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'sout1')
 data.setCell(0, 2, 'factory.FactoryTest2')
-data.setCell(0, 3, 10005);
+data.setCell(0, 3, 10003);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'sout1')
 data.setCell(1, 2, 'factory.FactoryTest2')
-data.setCell(1, 3, 10004);
+data.setCell(1, 3, 10002);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'sout1')
 data.setCell(2, 2, 'factory.FactoryTest2')
-data.setCell(2, 3, 10003);
+data.setCell(2, 3, 10002);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'sout1')
 data.setCell(3, 2, 'factory.FactoryTest1')
@@ -832,15 +833,15 @@ data.setCell(3, 3, 3003);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'test1')
 data.setCell(4, 2, 'factory.TestDate')
-data.setCell(4, 3, 4);
+data.setCell(4, 3, 3);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'test2')
-data.setCell(5, 2, 'factory.TestDate')
-data.setCell(5, 3, 3);
+data.setCell(5, 2, 'factory.Factory1')
+data.setCell(5, 3, 2);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test2')
-data.setCell(6, 2, 'factory.TestDate')
-data.setCell(6, 3, 3);
+data.setCell(6, 1, 'test1')
+data.setCell(6, 2, 'factory.FactoryTest')
+data.setCell(6, 3, 2);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'test1')
 data.setCell(7, 2, 'factory.FactoryTest')
@@ -858,28 +859,28 @@ data.setCell(10, 1, 'sout1')
 data.setCell(10, 2, 'factory.FactoryTest3')
 data.setCell(10, 3, 2);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'test1')
-data.setCell(11, 2, 'factory.TestDate')
-data.setCell(11, 3, 2);
+data.setCell(11, 1, 'sout1')
+data.setCell(11, 2, 'factory.FactoryTest3')
+data.setCell(11, 3, 1);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'sout1')
-data.setCell(12, 2, 'factory.FactoryTest3')
-data.setCell(12, 3, 2);
+data.setCell(12, 1, 'test2')
+data.setCell(12, 2, 'factory.FactoryTest')
+data.setCell(12, 3, 1);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'test2')
-data.setCell(13, 2, 'factory.Factory1')
+data.setCell(13, 2, 'factory.TestDate')
 data.setCell(13, 3, 1);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'test1')
-data.setCell(14, 2, 'factory.FactoryTest')
+data.setCell(14, 2, 'factory.TestDate')
 data.setCell(14, 3, 1);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'sout1')
-data.setCell(15, 2, 'factory.FactoryTest3')
+data.setCell(15, 1, 'test2')
+data.setCell(15, 2, 'factory.TestDate')
 data.setCell(15, 3, 1);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'test2')
-data.setCell(16, 2, 'factory.FactoryTest')
+data.setCell(16, 1, 'sout1')
+data.setCell(16, 2, 'factory.FactoryTest3')
 data.setCell(16, 3, 1);
 window.suiteTableData['factory']= { tableData: data, tableDiv: 'times-div-factory'}
 return data;
@@ -946,16 +947,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test1')
 data.setCell(0, 2, 'timeout.TestTimeOut')
-data.setCell(0, 3, 373);
+data.setCell(0, 3, 349);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test2')
 data.setCell(1, 2, 'timeout.TestTimeOut')
-data.setCell(1, 3, 244);
+data.setCell(1, 3, 242);
 window.suiteTableData['timeout']= { tableData: data, tableDiv: 'times-div-timeout'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 617 ms</span>
+              <span class="suite-total-time">Total running time: 591 ms</span>
               <div id="times-div-timeout">
               </div> <!-- times-div-timeout -->
             </div> <!-- times-div -->
@@ -1061,75 +1062,75 @@ return data;
               <div class="chronological-class-name">factory.FactoryTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-start">8 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">12 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">15 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">factory.FactoryTest1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">sout1</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">27 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">factory.FactoryTest2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">sout1</span>
-                <span class="method-start">3027 ms</span>
+                <span class="method-start">3032 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sout1</span>
-                <span class="method-start">13034 ms</span>
+                <span class="method-start">13037 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sout1</span>
-                <span class="method-start">23041 ms</span>
+                <span class="method-start">23043 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">factory.FactoryTest3</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">sout1</span>
-                <span class="method-start">33047 ms</span>
+                <span class="method-start">33051 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sout1</span>
-                <span class="method-start">33055 ms</span>
+                <span class="method-start">33069 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sout1</span>
-                <span class="method-start">33059 ms</span>
+                <span class="method-start">33073 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">factory.TestDate</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">33065 ms</span>
+                <span class="method-start">33075 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">33072 ms</span>
+                <span class="method-start">33079 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">33076 ms</span>
+                <span class="method-start">33082 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">33083 ms</span>
+                <span class="method-start">33085 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1145,11 +1146,11 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test3</span>
+                <span class="method-name">test2</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test2</span>
+                <span class="method-name">test3</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1171,7 +1172,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test2</span>
-                <span class="method-start">522 ms</span>
+                <span class="method-start">500 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

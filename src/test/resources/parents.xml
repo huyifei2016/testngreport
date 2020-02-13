@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="parents">
 <listeners>
-    <listener class-name="io.qameta.allure.testng.AllureTestNg"></listener>
-  <listener class-name="listener.MyReporterListener"></listener>
+ <!--   <listener class-name="io.qameta.allure.testng.AllureTestNg"></listener>-->
+  <listener class-name="newlistener.MyTestListener"></listener>
 </listeners>
   <suite-files>
   <!--  <suite-file path="/groups/child.xml"/>-->

@@ -12,9 +12,7 @@ public class MyTestListenerAdapter extends TestListenerAdapter {
         System.out.println(getPassedTests());
         StringBuilder builder=new StringBuilder();
         builder.append("time:").append(iTestResult.getEndMillis()-iTestResult.getStartMillis()).append("\n")
-                .append("method:").append(iTestResult.getMethod().getMethodName())
-                ;
-
+                .append("method:").append(iTestResult.getMethod().getMethodName());
         System.out.println(builder.toString());
 
     }

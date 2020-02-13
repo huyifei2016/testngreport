@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 12 16:50:50 CST 2019</td>
+<td>Started on:</td><td>Thu Jan 16 10:43:43 CST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (811 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (789 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -108,7 +108,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='timeout.TestTimeOut.test2()'><b>test2</b><br>Test class: timeout.TestTimeOut</td>
 <td><div><pre>org.testng.internal.thread.ThreadTimeoutException: Method timeout.TestTimeOut.test2() didn&apos;t finish within the time-out 240
-	at timeout.TestTimeOut.test2(TestTimeOut.java:22)
+	at java.lang.Thread.sleep(Native Method)
+	at timeout.TestTimeOut.test2(TestTimeOut.java:21)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -116,7 +117,8 @@ function toggleAllBoxes() {
 	at java.lang.Thread.run(Thread.java:748)
 ... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1642308093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace1642308093'><pre>org.testng.internal.thread.ThreadTimeoutException: Method timeout.TestTimeOut.test2() didn&apos;t finish within the time-out 240
-	at timeout.TestTimeOut.test2(TestTimeOut.java:22)
+	at java.lang.Thread.sleep(Native Method)
+	at timeout.TestTimeOut.test2(TestTimeOut.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
